@@ -18,11 +18,11 @@ iosv_r1 = {
 
 # set list of commands to pass to net_command.send_config_set
 commands_s1 = ["interface ra g0/0 - 3",
-   "desc TEST",
+   "desc did this change?",
 ]
 
 commands_r1 = ["interface g0/2",
-    "desc TEST",
+    "desc did this change?",
 ]
 
 #  ssh to device, pass in dictionary to net_connect
