@@ -1,6 +1,6 @@
 import requests, json
 
-# POST Token for auth
+# POST create auth token
 url = "https://sandboxdnac.cisco.com/dna/system/api/v1/auth/token"
 
 user = 'devnetuser'
